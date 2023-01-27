@@ -1,0 +1,103 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar-brand,navbar-brand:hover, .nav-link:hover{
+	color: #32408f;
+}
+
+.btn-blauw{
+	background-color: #32408f;
+	border-color: #32408f;
+	color: white;
+}
+.btn-blauw:hover{
+	color: white;
+	font-weight: bold;
+}
+main {
+	max-width: 1200px;
+	margin: auto;
+}
+main .nav-item {
+	width: 44%;
+}
+.nav-pills .nav-link,
+.nav-link {
+	color: black;
+}
+
+.nav-link.active{
+	color: #32408f;
+	font-weight: bold;
+}
+/* .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	background: rgb(239, 238, 238);
+	color: black;
+	font-weight: bold;
+} */
+#ProfielMain {
+	display: flex;
+	margin-top: 2rem;
+}
+#ProfielMain aside {
+	width: 25%;
+	border-right: 3px solid black;
+}
+#ProfielMain article {
+	width: 70%;
+	margin: 24px;
+}
+.flex {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.GeldigInvoer,
+.OnGeldigInvoer {
+	font-size: 13px;
+	display: block;
+	margin-top: 1px;
+}
+.GeldigInvoer {
+	color: rgb(27 87 44);
+}
+.OnGeldigInvoer {
+	color: rgb(167 0 0);
+}
+
+.row {
+	display: flex;
+	top: 98%;
+}
+
+.Voorstelling {
+	flex: 33.33%;
+	padding: 1%;
+}
+
+.form-check-input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    margin: 0px 5px;
+}
+
+.Donatiemenu button{
+	margin: 5px;
+}
+
+#voorstellingen-banner{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 8px solid #32408f;
+    margin: 10px 0;
+	border-top: 8px solid #32408f;
+}
+
+#voorstellingen-banner img{
+	width: 32%;
+	border-radius: 20px;
+}

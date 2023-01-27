@@ -1,0 +1,23 @@
+Feature: WachtwoordenTesten
+
+    verschillende goede/verkeerde wachtwoorden testen
+    @tag5
+    Scenario: testwachtwoord
+        Given De inlogpagina staat open
+        And Wachtwoord piet wordt ingevuld
+        And Wachtwoord Thomas12345
+        And Wachtwoord Guus05102018
+        And Wachtwoord Groep!8
+        And Wachtwoord groep8@mail.nl
+        When de knop registreren wordt ingevuld
+        Then keurt die alleen Groep!8 toe
+
+Feature: stoelenbinnenhalen
+
+    stoelen binnenhalen na zaal in te voeren
+    @tag5
+    Scenario: StoelenZaal1
+        Given er wordt een fetch gedaan naar de api zalen
+        And je geeft ZaalID 1 mee
+        When de fetch request wordt gedaan
+        Then moeten er 240 stoelen komen        

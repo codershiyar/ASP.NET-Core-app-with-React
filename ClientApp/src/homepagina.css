@@ -1,0 +1,52 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+main {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.dag-rooster {
+	max-width: 12%;
+	border: 2px solid #dee2e6;
+	margin: 15px;
+	display: inline-block;
+}
+
+.dag-nummer-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dag-nummer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #32408f;
+	border-radius: 50px;
+	color: white;
+	width: 2.5em;
+	height: 2.5em;
+	margin-bottom: 1rem;
+}
+
+.pijl-container {
+	display: inline-block;
+}
+
+.pijl {
+	content: url("../public/pijl.png");
+	width: 25px;
+	height: 25px;
+}
+
+.pijl:hover {
+    cursor: pointer;
+}
+
+.pijl.invert {
+	transform: scaleX(-1);
+}

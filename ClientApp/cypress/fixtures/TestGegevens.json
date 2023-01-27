@@ -1,0 +1,27 @@
+
+{
+  "InloggenGebruikers":[
+    {"Role":"Gebruiker","Email":"tester@gmail.com", "Wachtwoord": "1234@Ab"},
+    {"Role":"Beheerder", "Email":"admin@gmail.com", "Wachtwoord": "1234@Ab"},  
+    {"Role":"Medewerker", "Email":"medewerker@gmail.com", "Wachtwoord": "Beheerder2@"}   
+  ],
+  "Gebruiker": {"Email":"tester@gmail.com", "Password": "1234@Ab", "Naam": "Test"},
+  "GeblokkeerdeGebruiker":  {"Email":"codershiyar@gmail.com", "Password": "1234@Ab"},
+  "InloggenApi" : "https://localhost:7117/api/login",
+  "InloggenInDashboard":"https://localhost:44493/inloggen",
+  "DonerenPagina":"https://localhost:44493/doneren",
+  "ProfielPagina":"https://localhost:44493/Profiel",
+  "RegistrerenPagina":"https://localhost:44493/registreren",
+  "RegistrerenApi":"https://localhost:7117/api/registreren",
+  "VoorstellingenPagina":"https://localhost:44493/voorstellingen",
+  "VoorstellingenApi":"https://localhost:7117/api/voorstellingen",
+
+  "ProfielPaginaMetId":"https://localhost:7117/api/profiel/7122228e-b35d-4e2f-9951-d0ea25e19eff"
+  ,"ApiOphalenProfiel": "https://localhost:7117/api/profiel/1",
+  "TestVoorstelling" : {"Titel": "Voorstellingen Delft","Omschrijving": "Het is voor Delftnaren", "Prijs": 10,
+  "DatumEnTijdBegin": "2023-03-04T14:59", "DatumEnTijdEind": "2023-04-04T14:59"}
+
+
+}
+
+
